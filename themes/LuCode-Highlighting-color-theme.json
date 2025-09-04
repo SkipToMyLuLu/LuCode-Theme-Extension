@@ -8,10 +8,27 @@
 	},
 	"tokenColors": [
 		{
-			"scope": "comment",
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"string.comment"
+			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#00792681",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable",
+				"variable.other",
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#94cb13ce",
+				"fontStyle": "italic"
 			}
 		}
 	]
