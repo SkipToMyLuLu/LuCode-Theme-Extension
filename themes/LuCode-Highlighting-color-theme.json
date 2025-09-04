@@ -8,21 +8,10 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment",
-				"string.comment"
-			],
-			"settings": {
-				"foreground": "#00792681",
-				"fontStyle": "bold"
-			}
-		},
-		{
 			"name": "Comments",
 			"scope": [
-				"comment.lucode"
+				"comment.lucode",
+				"comment"
 			],
 			"settings": {
 				"foreground": "#9cd810",
