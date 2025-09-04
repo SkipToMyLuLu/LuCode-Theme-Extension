@@ -1,0 +1,25 @@
+{
+  "name": "lulang-theme",
+  "displayName": "LuLang-Theme",
+  "description": "Adds the LuLang Theme for lucode files!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "LuCode-Highlighting",
+        "uiTheme": "vs-dark",
+        "path": "./themes/LuCode-Highlighting-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SkipToMyLuLu/LuCode-Theme-Extension.git"
+  }
+}
