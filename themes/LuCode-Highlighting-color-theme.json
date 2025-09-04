@@ -30,6 +30,17 @@
 				"foreground": "#94cb13ce",
 				"fontStyle": "italic"
 			}
+		},
+		{
+			"name": "Syntax",
+			"scope": [
+				"keyword.lucode",
+				"string.lucode"
+			],
+			"settings": {
+				"foreground": "#d4d4d4",
+				"fontStyle": "bold"
+			}
 		}
 	]
 }
