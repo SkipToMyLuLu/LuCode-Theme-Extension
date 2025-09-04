@@ -2,7 +2,7 @@
 	"name": "LuCode-Highlighting",
 	"colors": {
 		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		// "editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -20,25 +20,22 @@
 			}
 		},
 		{
-			"name": "Variable",
+			"name": "Comments",
 			"scope": [
-				"variable",
-				"variable.other",
-				"variable.parameter"
+				"comment.lucode"
 			],
 			"settings": {
-				"foreground": "#94cb13ce",
+				"foreground": "#9cd810",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Syntax",
 			"scope": [
-				"keyword.lucode",
-				"string.lucode"
+				"syntax.lucode"
 			],
 			"settings": {
-				"foreground": "#d4d4d4",
+				"foreground": "#2200ffcf",
 				"fontStyle": "bold"
 			}
 		}
